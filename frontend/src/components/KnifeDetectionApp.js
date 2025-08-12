@@ -276,7 +276,7 @@ const KnifeDetectionApp = () => {
             onClick={toggleTheme}
             className="absolute top-4 right-4 bg-white bg-opacity-20 hover:bg-opacity-30 
                      backdrop-blur-sm rounded-lg px-4 py-2 transition-all duration-300 
-                     flex items-center gap-2 text-sm font-medium"
+                     flex items-center gap-2 text-sm font-medium z-20"
           >
             {darkMode ? <Sun size={16} /> : <Moon size={16} />}
             {darkMode ? 'Light Mode' : 'Dark Mode'}
