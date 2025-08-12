@@ -206,7 +206,7 @@ input:focus-visible {
 }
 
 .dropzone-dark {
-  @apply border-gray-600 bg-gray-800 hover:border-gray-500 hover:bg-gray-750;
+  @apply border-gray-600 bg-gray-800 hover:border-gray-500 hover:bg-gray-700;
 }
 
 .dropzone-dark-active {
