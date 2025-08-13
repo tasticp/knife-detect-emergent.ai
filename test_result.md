@@ -345,14 +345,10 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Single Image Detection API"
-    - "Batch Image Detection API"
-    - "Drag & Drop Upload Zone"
-    - "Image Display Components"
     - "ONNX Model Integration"
   stuck_tasks:
     - "ONNX Model Integration"
-  test_all: true
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
